@@ -9,6 +9,19 @@ TypeScript coursework exploring inheritance and interfaces through an interactiv
 
 Create cars, trucks, and motorbikes, then choose vehicle actions from the menu.
 
+## What I built
+
+- Built interactive vehicle creation and action menus.
+- Modeled cars, trucks, and motorbikes with shared behavior and specialized actions.
+- Used TypeScript interfaces for driving and towing capabilities.
+
+## Explore the source
+
+- [src/classes/Cli.ts](src/classes/Cli.ts) — Interactive menus.
+- [src/classes/Vehicle.ts](src/classes/Vehicle.ts) — Shared vehicle model.
+- [src/classes/Truck.ts](src/classes/Truck.ts) — Truck behavior.
+- [src/interfaces/AbleToTow.ts](src/interfaces/AbleToTow.ts) — Towing interface.
+
 ## Run locally
 
 Requires Node.js/npm. From the repository root:
