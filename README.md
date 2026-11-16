@@ -1,5 +1,12 @@
 # Vehicle Manager CLI Application
 
+**Status: Coursework / learning project.**
+
+A TypeScript coursework exercise in classes, interfaces, and a vehicle-management command-line interface.
+
+Preserved as a learning reference; production deployment and current compatibility have not been verified.
+
+
 ## Description
 
 The **Vehicle Manager** is a command-line interface (CLI) application that allows users to create and manage vehicles, including cars, trucks, and motorbikes. Each vehicle type has unique attributes and functionality. The application uses the **Inquirer** package to provide a seamless user experience.
