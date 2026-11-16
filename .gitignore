@@ -128,3 +128,18 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Private environment files; commit only sanitized templates
+.env
+.env.*
+*.env
+!.env.example
+!.env.EXAMPLE
+!.env.*.example
+
+# Private keys and local database files
+*.pem
+*.key
+*.sqlite
+*.sqlite3
+*.db
