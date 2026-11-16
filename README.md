@@ -1,36 +1,27 @@
-# Vehicle Manager CLI Application
+# Vehicle Manager
 
-**Status: Coursework / learning project.**
+![Status](https://img.shields.io/badge/status-coursework-blue)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-A TypeScript coursework exercise in classes, interfaces, and a vehicle-management command-line interface.
+TypeScript coursework exploring inheritance and interfaces through an interactive vehicle CLI.
 
-Preserved as a learning reference; production deployment and current compatibility have not been verified.
+**Built with:** TypeScript, Node.js, Inquirer.
 
+Create cars, trucks, and motorbikes, then choose vehicle actions from the menu.
 
-## Description
+## Run locally
 
-The **Vehicle Manager** is a command-line interface (CLI) application that allows users to create and manage vehicles, including cars, trucks, and motorbikes. Each vehicle type has unique attributes and functionality. The application uses the **Inquirer** package to provide a seamless user experience.
+Requires Node.js/npm. From the repository root:
 
----
+```bash
+npm ci
+npm start
+```
 
-## Features
+`npm start` compiles TypeScript before launching `dist/index.js`. To compile without launching, use `npm run build`.
 
-- Create vehicles (Car, Truck, Motorbike).
-- Customize attributes such as color, make, model, and specific details for trucks and motorbikes.
-- Perform actions with vehicles, including:
-  - Start, accelerate, decelerate, stop, reverse, and turn.
-  - Trucks can perform a unique **`tow()`** action.
-- Manage a list of created vehicles and select them for further actions.
+`npm test` is a placeholder. Check vehicle creation and menu actions manually.
 
----
+Setup instructions were checked against source; builds and application behavior have not been rerun during this cleanup.
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd <repository-folder>
-
-## VIDEO DEMONSTRATION
-SCREENCASTIFY VIDEO WALKTHROUGH
-https://drive.google.com/file/d/18tkigfuXoAE32JHw6bVj7GmPGqLjK8GP/view
+**License:** [MIT](LICENSE).
