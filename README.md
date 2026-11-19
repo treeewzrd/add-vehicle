@@ -1,6 +1,8 @@
 # Vehicle Manager
 
-![Status](https://img.shields.io/badge/status-coursework-blue)
+**Coursework for school**
+
+![Coursework](https://img.shields.io/badge/Coursework-blue)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 TypeScript coursework exploring inheritance and interfaces through an interactive vehicle CLI.
